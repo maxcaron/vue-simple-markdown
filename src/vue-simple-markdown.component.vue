@@ -28,10 +28,6 @@ export default {
       type: Boolean,
       default: true
     },
-    highlight: {
-      type: Boolean,
-      default: true
-    },
     horizontalLine: {
       type: Boolean,
       default: true
@@ -80,7 +76,6 @@ export default {
       source = VueSimpleMarkdownParser.parse(source, {
         emoji: this.emoji,
         heading: this.heading,
-        highlight: this.highlight,
         horizontalLine: this.horizontalLine,
         image: this.image,
         inlineCode: this.inlineCode,

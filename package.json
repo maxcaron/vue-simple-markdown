@@ -133,7 +133,6 @@
   },
   "dependencies": {
     "github-markdown-css": "^2.8.0",
-    "highlightjs": "^9.10.0",
     "node-emoji": "^1.8.1"
   }
 }

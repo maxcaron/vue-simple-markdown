@@ -51,6 +51,6 @@ module.exports = {
       }
     ]
   },
-  externals: /highlightjs|node-emoji/,
+  externals: /node-emoji/,
   plugins
 }
